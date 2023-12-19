@@ -1,0 +1,291 @@
+*{
+    margin: 0%;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.first-thing{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+}
+span{
+    font-size: large;
+    font-weight: 700;
+}
+.cart-flex{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+.logo{
+    margin-left: 50px;
+    width: 150px;
+    height: 30px;
+}
+.cart-logo{
+    height: 25px;
+}
+.header-container{
+    background: url(../assets/kw-background.png);
+    background-size: 100% 100% ;
+    height: 400px;
+    padding-top: 50px;
+    padding-left: 50px;
+    line-height: 70px;
+    color: white;
+    font-size: xx-large;
+}
+.grid-1,.grid-2,.grid-3{
+    margin: 100px 75px;
+}
+
+.grid-container-1{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: 200px;
+    column-gap: 50px;
+    margin-left:20px;
+    margin-bottom: 300px;
+}
+
+.text-1,.text-2,.text-3{
+    margin-left: 20px;
+    font-size: x-large;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+ .grid-container-2,.grid-container-3{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 200px;
+    column-gap: 20px;
+    margin-left: 20px;
+    margin-bottom: 300px;
+} 
+
+.grid-item-a1-img{
+    background: url(../assets/book1.png);
+    background-size: 100% 100%;
+    height: 250px;
+    width: 150px;
+}
+.grid-item-a2-img{
+    background: url(../assets/book2.png);
+    background-size: 100% 100%;
+    height: 250px;
+    width: 150px;
+}
+.grid-item-a3-img{
+    background: url(../assets/book3.png);
+    background-size: 100% 100%;
+    height: 250px;
+    width: 150px;
+}
+.grid-item-a4-img{
+    background: url(../assets/book4.png);
+    background-size: 100% 100%;
+    height: 250px;
+    width: 150px;
+}
+.grid-item-a5-img{
+    background: url(../assets/book5.png);
+    background-size: 100% 100%;
+    height: 250px;
+    width: 150px;
+}
+.grid-item-a6-img{
+    background: url(../assets/book6.png);
+    background-size: 100% 100%;
+    height: 250px;
+    width: 150px;
+}
+.grid-item-b1-img{
+    background: url(../assets/dart-board.png);
+    background-size: 100% 100%;
+    height: 250px;
+    width: 300px;
+}
+.grid-item-b2-img{
+    background: url(../assets/connect-four.png);
+    background-size: 100% 100%;
+    height: 250px;
+    width: 300px;
+}
+.grid-item-b3-img{
+    background: url(../assets/jenga.png);
+    background-size: 100% 100%;
+    height: 250px;
+    width: 300px;
+}
+.grid-item-b4-img{
+    background: url(../assets/monopoly.png);
+    background-size: 100% 100%;
+    height: 250px;
+    width: 300px;
+}
+.grid-item-c1-img{
+    background: url(../assets/bookmarks.png);
+    background-size: 100% 100%;
+    height: 250px;
+    width: 300px;
+}
+.grid-item-c2-img{
+    background: url(../assets/birthday-card.png);
+    background-size: 100% 100%;
+    height: 250px;
+    width: 300px;
+}
+.grid-item-c3-img{
+    background: url(../assets/stuffed-toy.png);
+    background-size: 100% 100%;
+    height: 250px;
+    width: 300px;
+}
+.grid-item-c4-img{
+    background: url(../assets/dream-catcher.png);
+    background-size: 100% 100%;
+    height: 250px;
+    width: 300px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height: 150px;
+    color: white;
+}
+.left-section{
+    margin-left: 50px;
+}
+.presenter-img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    margin-top: 10px;
+
+}
+.right-section{
+    margin-right: 50px;
+    text-align: end;
+}
+.game-name{
+    font-weight: 700;
+    font-size: 20px;
+    margin: 5px 0px;
+}
+.book-name{
+    font-weight: 700;
+    font-size: 15px;
+    margin: 5px 0px;
+}
+.game-type{
+    font-weight: 300;
+    font-size: 15px;
+    margin-bottom: 5px;
+    opacity: .5;
+}
+.book-type{
+    font-weight: 300;
+    font-size: 12px;
+    margin-bottom: 5px;
+    opacity: .5;
+}
+.game-price-container{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin-right: 20px;
+}
+.book-price-container{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin-right: 30px;
+}
+.game-price,.book-price{
+    font-weight: 700;
+    font-size: large;
+}
+.game-cart-photo{
+    display: flex;
+    background-color: rgb(148, 24, 231);
+    width: 70px;
+    height: 30px;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+.game-cart-img,.book-cart-img{
+    width: 25px;    
+}
+.book-cart-photo{
+    display: flex;
+    justify-content: space-around;
+    width: 70px;
+    height: 30px;
+    align-items: center;
+    background-color: rgb(148, 24, 231);
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+.Add{
+    color: white;
+    font-weight: 700;
+    margin-right: 5px;
+}
+
+@media (max-width: 500px){
+    .header-container{
+        background: url(../assets/kw-background.png);
+        background-size: 100% 100% ;
+        height: 250px;
+        padding-top: 50px;
+        padding-left: 20px;
+        line-height: 40px;
+        color: white;
+        font-size: large;
+    }
+    .grid-1,.grid-2,.grid-3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 50px 0px;
+    }
+    .grid-container-1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px;
+    }
+    .grid-item-a1,
+    .grid-item-a2,
+    .grid-item-a3,
+    .grid-item-a4,
+    .grid-item-a5,
+    .grid-item-b1,
+    .grid-item-b2,
+    .grid-item-b3,
+    .grid-item-c1,
+    .grid-item-c2,
+    .grid-item-c3{
+        margin-bottom: 50px;
+    }
+    .grid-container-2,.grid-container-3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    .game-price-container{
+        margin-right: 0px;
+    }
+    .book-price-container{
+        margin-right: 0px;
+    }
+}
